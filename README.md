@@ -13,6 +13,8 @@ Execute Unit Tests
 
 `python3 -m pytest -v`
 
+Run application from command line
+
 `python3 run.py`
 
 
