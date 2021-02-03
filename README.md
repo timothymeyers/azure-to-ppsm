@@ -1,5 +1,8 @@
 # Introduction 
-A converter that takes the Azure IP Ranges and Service Tags json file and converts it into a csv that resembles DoD PPSM format
+A converter that takes the Azure IP Ranges and Service Tags json file and converts it into a csv that resembles [DoD PPSM format](https://public.cyber.mil/connect/faq-ppsm/).
+
+# Caveat Emptor
+This code is not blessed or good by any means. It is the very first python program I ever wrote, so use with caution.
 
 # Build and Test
 
