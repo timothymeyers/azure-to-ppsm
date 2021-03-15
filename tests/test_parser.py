@@ -1,11 +1,12 @@
 import pytest
 from com.parser import ServiceMappingParser
+from com.config.constants import AZ_GOV_URL, AZ_PUB_URL
 
 # "Constaints"
 
-AZ_GOV_URL = 'https://download.microsoft.com/download/6/4/D/64DB03BF-895B-4173-A8B1-BA4AD5D4DF22/ServiceTags_AzureGovernment_20210201.json'
+#AZ_GOV_URL = 'https://download.microsoft.com/download/6/4/D/64DB03BF-895B-4173-A8B1-BA4AD5D4DF22/ServiceTags_AzureGovernment_20210201.json'
 # AZ_PUB_URL = 'https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20200824.json'
-AZ_PUB_URL = 'https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20210201.json'
+#AZ_PUB_URL = 'https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20210201.json'
 
 JSON_TEST = {
     "changeNumber":
