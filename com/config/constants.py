@@ -1,7 +1,7 @@
-AZ_GOV_URL = 'https://download.microsoft.com/download/6/4/D/64DB03BF-895B-4173-A8B1-BA4AD5D4DF22/ServiceTags_AzureGovernment_20210201.json'
-AZ_PUB_URL = 'https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20210201.json'
+AZ_GOV_URL = 'https://download.microsoft.com/download/6/4/D/64DB03BF-895B-4173-A8B1-BA4AD5D4DF22/ServiceTags_AzureGovernment_20210315.json'
+AZ_PUB_URL = 'https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20210315.json'
 
-AZ_JSON_URL = AZ_PUB_URL
+AZ_JSON_URL = AZ_GOV_URL
 
 HEADERS = [
     # This is DoD PPSM format
